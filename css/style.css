@@ -5,6 +5,7 @@ body {
   background-color: #4C2278;
   box-shadow: 7px 0px 4px 0px rgba(135,66,195,1);
   height: 100vh;
+  z-index: 1;
 }
 /*
 .game-area {
