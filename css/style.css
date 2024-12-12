@@ -1,0 +1,35 @@
+body {
+  background-color: #A77DCC;
+}
+.sidebar-left {
+  background-color: #4C2278;
+  box-shadow: 7px 0px 4px 0px rgba(135,66,195,1);
+  height: 100vh;
+}
+.game-area {
+  background-color: white;
+  height: 80vh;
+  width: 100%;
+  margin: auto;
+}
+.leaderboard {
+  background-color: #4C2278;
+  box-shadow: -7px 0px 4px 0px rgba(135,66,195,1);
+  height: 100vh;
+  color: white;
+}
+.leaderboard h4 {
+  background-color: #392847;
+  margin-top: 10vh;
+  font-size: 26px;
+  text-align: center;
+}
+.leaderboard .scores {
+  background-color: #392847;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+.highlight {
+  color: limegreen;
+}
