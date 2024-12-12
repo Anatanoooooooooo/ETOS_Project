@@ -14,7 +14,19 @@ body {
   width: 100%;
   margin: auto;
 }
-*/
+  */
+
+  .circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #C79AEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
 .leaderboard {
   background-color: #4C2278;
   box-shadow: -7px 0px 4px 0px rgba(135,66,195,1);
