@@ -1,6 +1,8 @@
-* Site en ligne *
+# Site en ligne
 
-** En cours **
+## En cours
 
-- Refonte du site
-- Mise en place du scoreboard
+* Refonte du site
+
+### À faire
+* Mise en place du scoreboard
