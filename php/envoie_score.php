@@ -22,9 +22,9 @@ if ($conn->connect_error) {
 }
 
 // Fonction pour insérer un score dans la base de données
-function insertScore($joueur, $score, $conn) {
+function insertScore($pseudo, $score, $conn) {
     $stmt = $conn->prepare("INSERT INTO score (pseudo, score) VALUES (?, ?)");
-    $stmt->bind_param("si", $joueur, $score);
+    $stmt->bind_param("si", $pseudo, $score);
     $stmt->execute();
     $stmt->close();
 }
