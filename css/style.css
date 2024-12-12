@@ -6,12 +6,14 @@ body {
   box-shadow: 7px 0px 4px 0px rgba(135,66,195,1);
   height: 100vh;
 }
+/*
 .game-area {
   background-color: white;
   height: 80vh;
   width: 100%;
   margin: auto;
 }
+*/
 .leaderboard {
   background-color: #4C2278;
   box-shadow: -7px 0px 4px 0px rgba(135,66,195,1);
