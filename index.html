@@ -114,14 +114,14 @@
       }
 
      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/RiseOfHer.loader.js";
+      var loaderUrl = buildUrl + "/RiseOfT.loader.js";
       var config = {
-        dataUrl: buildUrl + "/RiseOfHer.data.br",
-        frameworkUrl: buildUrl + "/RiseOfHer.framework.js.br",
-        codeUrl: buildUrl + "/RiseOfHer.wasm.br",
+        dataUrl: buildUrl + "/RiseOfT.data",
+        frameworkUrl: buildUrl + "/RiseOfT.framework.js",
+        codeUrl: buildUrl + "/RiseOfT.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Etos",
+        productName: "RiseOfT",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -160,8 +160,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
 
       loadingBar.style.display = "block";
